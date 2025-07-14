@@ -10,7 +10,7 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={LoanCalculator} />
-      <Route component={NotFound} />
+      <Route component={LoanCalculator} />
     </Switch>
   );
 }
